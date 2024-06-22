@@ -15,6 +15,6 @@ gcc HTTPSimple.c -o server -lssl -lcrypto -lsqlite3
 - Запуск
 
 ~~~
-./Server -p 10000 -r webroot
+./Server -p 10000
 ~~~
 
