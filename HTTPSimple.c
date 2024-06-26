@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
     // Инициализация контекста сервера
     SSL_CTX *ctx; // контекст сервера
     SSL *ssl;     // SSL-обработчик подключения
-    if (!(ctx = get_server_context("./keys/ca/ca_cert.pem", "./keys/server/server_cert.pem", "./keys/server/private/server_key.pem"))) {
+    if (!(ctx = get_server_context("./keys/ca/ca_cert.pem", "./keys/server/server_cert.pem", "./keys/server/server_key.pem"))) {
         exit(0);
     }
 
